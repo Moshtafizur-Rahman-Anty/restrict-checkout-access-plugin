@@ -25,11 +25,6 @@ msgstr ""
 msgid "Restricts access to WooCommerce checkout based on user role, username, or guest status."
 msgstr ""
 
-#. Author of the plugin
-#: restrict-checkout-access.php
-msgid "Your Name"
-msgstr ""
-
 #: includes/class-rcc-restrictor.php:26
 #: includes/class-rcc-settings.php:65
 msgid "You are not allowed to access the checkout page."

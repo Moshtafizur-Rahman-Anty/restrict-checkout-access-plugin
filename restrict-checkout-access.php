@@ -45,4 +45,7 @@ function rcc_run_plugin() {
             echo '<div class="notice notice-error"><p><strong>Restrict Checkout Access:</strong> WooCommerce must be installed and active.</p></div>';
         } );
     }
+
+    load_plugin_textdomain( 'restrict-checkout', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+
 }
