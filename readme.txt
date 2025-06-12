@@ -1,15 +1,15 @@
 === Restrict Checkout Access ===
 
 Contributors: moshtafizur01
-Tags: woocommerce, checkout restriction, user role, guest block, block checkout, restrict checkout
+Tags: checkout, user roles, woocommerce, restrict checkout, block users
 Requires at least: 5.6
-Tested up to: 6.5
+Tested up to: 6.8
 Requires PHP: 7.2
 Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Restrict access to the WooCommerce checkout page based on user roles, specific usernames, or guest status. Useful for B2B stores, approval-only stores, or controlled environments.
+Restrict WooCommerce checkout access based on user roles, usernames, or guest status.
 
 == Description ==
 
