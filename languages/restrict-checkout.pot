@@ -1,0 +1,84 @@
+# Copyright (C) 2025 Your Name
+# This file is distributed under the same license as the Restrict Checkout Access plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Restrict Checkout Access 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/restrict-checkout-access\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-06-12T06:17:38+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: restrict-checkout\n"
+
+#. Plugin Name of the plugin
+#: restrict-checkout-access.php
+#: includes/class-rcc-settings.php:22
+msgid "Restrict Checkout Access"
+msgstr ""
+
+#. Description of the plugin
+#: restrict-checkout-access.php
+msgid "Restricts access to WooCommerce checkout based on user role, username, or guest status."
+msgstr ""
+
+#. Author of the plugin
+#: restrict-checkout-access.php
+msgid "Your Name"
+msgstr ""
+
+#: includes/class-rcc-restrictor.php:26
+#: includes/class-rcc-settings.php:65
+msgid "You are not allowed to access the checkout page."
+msgstr ""
+
+#: includes/class-rcc-settings.php:13
+msgid "Checkout Restriction"
+msgstr ""
+
+#: includes/class-rcc-settings.php:24
+msgid "Control access to the WooCommerce checkout page."
+msgstr ""
+
+#: includes/class-rcc-settings.php:28
+msgid "Enable Plugin"
+msgstr ""
+
+#: includes/class-rcc-settings.php:29
+msgid "Enable checkout access restriction"
+msgstr ""
+
+#: includes/class-rcc-settings.php:35
+msgid "Blocked Roles"
+msgstr ""
+
+#: includes/class-rcc-settings.php:36
+msgid "Users with these roles will be blocked from checkout."
+msgstr ""
+
+#: includes/class-rcc-settings.php:45
+msgid "Blocked Usernames"
+msgstr ""
+
+#: includes/class-rcc-settings.php:46
+msgid "Comma-separated list of usernames to block from checkout."
+msgstr ""
+
+#: includes/class-rcc-settings.php:53
+msgid "Block Guests"
+msgstr ""
+
+#: includes/class-rcc-settings.php:54
+msgid "Prevent guests from accessing checkout"
+msgstr ""
+
+#: includes/class-rcc-settings.php:60
+msgid "Block Message"
+msgstr ""
+
+#: includes/class-rcc-settings.php:61
+msgid "Shown when a user is blocked. Leave blank to use default."
+msgstr ""
