@@ -1,11 +1,11 @@
-# Copyright (C) 2025 Your Name
+# Copyright (C) 2025 Moshtafizur Rahman Anty
 # This file is distributed under the same license as the Restrict Checkout Access plugin.
 msgid ""
 msgstr ""
 "Project-Id-Version: Restrict Checkout Access 1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/restrict-checkout-access\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Moshtafizur Rahman Anty <moshtafizur.rahman.anty@gmail.com>\n"
+"Language-Team: English <en@wordpress.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
