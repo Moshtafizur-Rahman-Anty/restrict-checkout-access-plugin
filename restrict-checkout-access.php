@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Plugin Name: Restrict Checkout Access
  * Description: Restricts access to the WooCommerce checkout page based on user role, username, or guest status. Helps store owners control who can place orders based on defined access rules.
@@ -14,7 +15,9 @@
  * Requires PHP: 7.2
  * WC requires at least: 5.0
  * WC tested up to: 8.9
+ * WC HPOS Compatible: yes
  */
+
 
 // Exit if accessed directly.
 if ( ! defined( 'ABSPATH' ) ) {
