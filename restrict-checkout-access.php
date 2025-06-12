@@ -24,6 +24,18 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
+
+
+// ✅ Declare HPOS compatibility properly
+add_action( 'before_woocommerce_init', function() {
+    if ( class_exists( \Automattic\WooCommerce\Utilities\FeaturesUtil::class ) ) {
+        \Automattic\WooCommerce\Utilities\FeaturesUtil::declare_compatibility( 'custom_order_tables', __FILE__, true );
+    }
+}, 10 );
+
+// Plugin loader...
+add_action( 'plugins_loaded', 'rcc_run_plugin', 20 );
+
 /**
  * Initialize plugin functionality after all plugins (including WooCommerce) are loaded.
  * Priority 20 ensures WooCommerce has been initialized.
