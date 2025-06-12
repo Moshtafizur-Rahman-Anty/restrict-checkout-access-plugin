@@ -57,6 +57,7 @@ Yes. Enable the "Block Guests" checkbox and leave other settings empty if you on
 
 = 1.0.0 =
 * Initial release
+* Confirmed compatibility with WooCommerce HPOS (High-Performance Order Storage)
 
 == Upgrade Notice ==
 
